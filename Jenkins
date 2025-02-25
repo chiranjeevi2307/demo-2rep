@@ -18,7 +18,6 @@ sh 'javac hello.java'
 stage('run')
 {
 sh 'java hello'
-}
-}
+
 }
 }
