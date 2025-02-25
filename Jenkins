@@ -12,12 +12,12 @@ git 'https://github.com/chiranjeevi2307/demo-2rep'
 stages('build')
 {
 steps{
-sh 'javac hello.java hello'
+sh 'javac hello.java'
 }
 }
 stage('run')
 {
-sh 'java hello world'
+sh 'java hello'
 
 }
 }
